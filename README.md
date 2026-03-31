@@ -16,6 +16,8 @@ AI-powered stroke risk detection system using facial analysis, speech patterns, 
 - OpenCV
 - Machine Learning
 - Groq API
+- Librosa
+- MTCNN
 
 ▶️ How to Run
 
