@@ -1,0 +1,12 @@
+streamlit
+pandas
+scikit-learn
+opencv-python
+librosa
+groq
+plotly
+sounddevice
+scipy
+langchain-groq
+mtcnn
+tensorflow
