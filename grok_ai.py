@@ -1,13 +1,13 @@
 import json
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
-from config import GROQ_API_KEY
+import os
 
 
 def get_recommendation(user_data, risk_level, confidence, computed_values):
 
     llm = ChatGroq(
-        groq_api_key=GROQ_API_KEY,
+        groq_api_key=os.getenv("GROQ_API_KEY"),
         model_name="llama-3.3-70b-versatile",
         temperature=0   # no randomness
     )
